@@ -94,8 +94,11 @@ H_m=\{p:p^2=m^2,\ p^0\geq0\},
 
 当孤立单粒子质量壳和正能量扇区得到确立时，这满足本项目的粒子判据。拓扑 Kink 不会仅仅因为其具有非微扰场构型就自动成为复合束缚态。
 
-主要文献：
+基础及原始文献：
 
+- J. Fröhlich, “New Super-Selection Sectors (Soliton-States) in Two-Dimensional Bose Quantum Field Models,” Commun. Math. Phys. 47, 269–310 (1976), DOI: 10.1007/BF01609844。该文严格构造了二维 Sine-Gordon 及相关 Bose 场模型中的孤子超选择扇区。
+- K. Fredenhagen, “Superselection Sectors in Low Dimensional Quantum Field Theory,” J. Geom. Phys. 11, 337–348 (1993), DOI: 10.1016/0393-0440(93)90062-J。该文将低维扇区理论推广到孤子扇区，用不同可观测代数扩张之间的同态取代 DHR 端同态。
+- J. Fröhlich and P. A. Marchetti, “Bosonization, Topological Solitons and Fractional Charges in Two-Dimensional Quantum Field Theory,” Commun. Math. Phys. 116, 127–173 (1988), DOI: 10.1007/BF01239028。
 - D. Schlingemann, *On the Algebraic Theory of Kink Sectors: Application to Quantum Field Theory Models and Collision Theory*, Universität Hamburg 博士论文 (1996), DESY 96-228。 [原始论文 PDF](https://www.physik.uni-hamburg.de/th2/ag-fredenhagen/dokumente/desy96-228.pdf)。
 
 ## 四、Kink 准统计：本维数最重要的候选方向
