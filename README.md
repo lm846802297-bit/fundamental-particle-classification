@@ -12,7 +12,7 @@ Do physically consistent fundamental particles beyond the ordinary Bose and Ferm
 - 中文：[Phase I 文献基线](docs/phase-I-literature-baseline.zh-CN.md)
 - Primary-source bibliography: [literature/bibliography.bib](literature/bibliography.bib)
 
-The project therefore treats relativistic anyons/plektons as an established positive benchmark, not as a new result to rediscover. The open research task is to determine whether further fundamental-particle classes exist, and to establish the dimension- and localization-dependent limits in 1+1, 3+1, and higher-dimensional QFT.
+The project treats relativistic anyons/plektons as an established positive benchmark, not as a new result to rediscover. The research itself proceeds strictly from the lowest nontrivial relativistic dimension upward: 1+1 first, then 2+1, 3+1, and higher dimensions. The 1+1D review is the active stage; the known 2+1D result is retained as a benchmark, not used to skip the lower-dimensional analysis.
 
 ## Scope
 
@@ -32,13 +32,13 @@ The project therefore treats relativistic anyons/plektons as an established posi
 
 ## Research workflow
 
-1. Review primary literature and record theorem hypotheses and definitions.
-2. Treat established relativistic anyons/plektons in 2+1D as a verified positive benchmark.
-3. Build a dimension-aware comparison of particle criteria, Poincare representations, statistics, localization, superselection sectors, fusion, and consistency conditions.
-4. Test each further candidate against explicit relativistic QFT requirements and equivalence to ordinary Bose/Fermi theories.
-5. Establish a construction or a no-go theorem under clearly stated assumptions.
+1. Start with 1+1D and complete its particle criteria, localization, statistics, kink sectors, and no-go results.
+2. Only after closing 1+1D, proceed to 2+1D and re-derive the established anyon/plekton benchmark.
+3. Continue sequentially to 3+1D, 4+1D, and higher dimensions.
+4. At every dimension, compare particle criteria, spacetime representations, statistics, localization, superselection sectors, fusion, and consistency conditions.
+5. Test each candidate against explicit relativistic QFT requirements and equivalence to ordinary Bose/Fermi theories.
 
-See the [research program](docs/research-program.md) and the [literature review template](docs/literature-review-template.md).
+See the [research program](docs/research-program.md), the [dimension-by-dimension research index](dimensions/README.md), the [active 1+1D review](dimensions/1+1d/README.md), and the [literature review template](docs/literature-review-template.md).
 
 ## Working standards
 
@@ -50,4 +50,4 @@ See the [research program](docs/research-program.md) and the [literature review 
 
 ## Status
 
-The broad existence question is answered affirmatively in 2+1D by relativistic anyons/plektons. The dimension-by-dimension literature baseline is in progress; no claim is made that all possible non-Bose/non-Fermi fundamental-particle classes have been classified.
+The broad existence question is answered affirmatively in 2+1D by relativistic anyons/plektons. The active research stage is now 1+1D; its kink quasi-statistics and conformal-sector candidates are under review. No claim is made that all possible non-Bose/non-Fermi fundamental-particle classes have been classified.
