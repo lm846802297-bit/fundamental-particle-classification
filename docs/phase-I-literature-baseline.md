@@ -3,6 +3,12 @@
 **Status:** Initial source-verified baseline; not an exhaustive classification.  
 **Scope:** Fundamental particles in relativistic QFT only. Condensed-matter quasiparticles, collective excitations, emergent excitations, and composite bound states are excluded.
 
+## Research order: start at 1+1D
+
+The active dimension-by-dimension review starts with 1+1D, the lowest nontrivial relativistic spacetime dimension. Its first-pass dossier is maintained in [dimensions/1+1d/README.md](../dimensions/1+1d/README.md), with a [Chinese version](../dimensions/1+1d/README.zh-CN.md).
+
+The 2+1D anyon/plekton result below remains an established positive benchmark. It is not a reason to skip the 1+1D stage: the project will close the lower-dimensional kink, quasi-statistics, conformal-sector, and no-go analysis before proceeding to the detailed 2+1D review, then 3+1D and higher dimensions. See the [dimension sequence](../dimensions/README.md).
+
 ## Executive result
 
 The broad existence question is already answered **yes** if 2+1-dimensional relativistic QFT is in scope.
