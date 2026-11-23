@@ -16,6 +16,19 @@ The main scientific outcomes are therefore:
 
 A result that only identifies a new species, unusual mass or charge, higher spin, continuous spin, helicity, or a different field notation does not by itself establish new exchange statistics. Such structures remain relevant because they constrain the available particle representations and the assumptions entering spin-statistics theorems.
 
+## Dimension-by-dimension execution order
+
+The research proceeds in strictly increasing spacetime dimension. The active stage is 1+1D; do not advance to the next dimension until the current dimension's bounded closure criteria are met.
+
+1. **1+1D — active first stage.** Review point-particle configuration topology; chiral/conformal braid sectors; massive kink one-particle states and their quasi-statistics; the massive-sector no-go theorem of Müger; ZF/factorized-scattering algebras; and deformed-spacetime candidates such as lightlike kappa-Minkowski QFT. The main open issue is whether kink quasi-statistics is a physically distinct fundamental-particle exchange/composition structure beyond Bose/Fermi.
+2. **2+1D — second stage.** The existence of relativistic anyons and plektons is already established and is retained as a positive benchmark. After closing 1+1D, review the Poincare one-particle construction, spacelike-cone/string localization, braid statistics, and the massive spin-statistics theorem in detail.
+3. **3+1D — third stage.** Review DHR and Buchholz-Fredenhagen sectors, finite statistics and Doplicher-Roberts reconstruction, infinite-spin localization, and the conditional infinite-statistics theorem.
+4. **4+1D and higher — subsequent stages.** Derive the relevant little groups and point-particle configuration topology, then verify dimension-specific QFT sector and spin-statistics theorems. Do not assume a theorem in 3+1D automatically extends.
+
+The project begins at 1+1D as the lowest nontrivial relativistic spacetime dimension. 0+1 quantum mechanics has no spatial particle-exchange configuration space and is not a separate relativistic-QFT stage.
+
+The active 1+1D source review is maintained in [dimensions/1+1d/README.md](../dimensions/1+1d/README.md), with the [Chinese version](../dimensions/1+1d/README.zh-CN.md). The sequence and closure rule are indexed in [dimensions/README.md](../dimensions/README.md).
+
 ## 2. Definitions and particle criteria
 
 For every source and argument, specify which object is being discussed:
@@ -126,13 +139,13 @@ For each candidate type, identify an explicit relativistic QFT construction or a
 
 ### WP3 — Dimension-dependent no-go assessment
 
-Compare verified candidates with the relevant primary theorems. In particular:
+Execute these checks in the same increasing-dimension order; later stages remain background until the current stage is closed.
 
-- In 3+1D, establish precisely how bounded-region DHR localization, finite statistics, permutation symmetry, and Doplicher-Roberts reconstruction constrain possible sectors.
-- For massive charges localized in spacelike cones, determine what the Buchholz-Fredenhagen framework proves and which statistics remain possible.
-- In 1+1D, distinguish braid-like statistics of chiral/conformal sectors from the existence of massive asymptotic fundamental particles.
-- For infinite-spin representations, separate the Bose/Fermi Fock quantization of the free one-particle representation from the Longo-Morinelli-Rehren result that a DHR sector whose covariance contains infinite spin must have infinite statistics under the Bisognano-Wichmann assumptions; do not treat this conditional implication as an interacting existence construction.
-- In dimensions above 3+1, analyze the point-particle configuration-space topology and the higher-dimensional little groups, then establish which conclusions follow from topology alone and which require a QFT theorem.
+- **1+1D first:** derive the point-particle configuration-space result; distinguish conformal braid sectors from massive asymptotic particles; reconstruct the massive kink one-particle and quasi-statistics framework; review Müger's Haag-duality plus wedge-split no-go theorem and its soliton-sector scope; distinguish ZF scattering exchange from statistics; and separately assess deformed-spacetime candidates.
+- **2+1D second:** re-derive the established anyon/plekton construction and its localization-dependent spin-statistics theorem, including the precise mass-spectrum assumptions.
+- **3+1D third:** establish precisely how bounded-region DHR localization, finite statistics, permutation symmetry, and Doplicher-Roberts reconstruction constrain possible sectors. For massive charges localized in spacelike cones, determine what the Buchholz-Fredenhagen framework proves and which statistics remain possible.
+- **4+1D and higher afterwards:** analyze point-particle configuration-space topology and higher-dimensional little groups, then establish which conclusions follow from topology alone and which require a QFT theorem.
+- **Infinite-spin track:** when the sequence reaches the relevant dimensions, separate Bose/Fermi Fock quantization of the free one-particle representation from the Longo-Morinelli-Rehren result that a DHR sector whose covariance contains infinite spin must have infinite statistics under the Bisognano-Wichmann assumptions. Do not treat this conditional implication as an interacting existence construction.
 
 For each obstruction, state the theorem's hypotheses and whether relaxing any one of them admits a genuine candidate.
 
@@ -151,6 +164,7 @@ The initial literature phase is complete when:
 - candidate statistics are tested for physical inequivalence to ordinary Bose/Fermi theories and to the known anyon/plekton benchmark;
 - dimension, Poincare representation, localization, and consistency conditions are represented;
 - candidate gaps are checked against the cited results;
-- unresolved questions are separated from established conclusions.
+- unresolved questions are separated from established conclusions;
+- the research sequence has been followed in increasing spacetime dimension, with the active dimension closed before advancing.
 
 These criteria close the literature-baseline phase. Further model construction or no-go work belongs to the next phase and does not block completion of the baseline.
