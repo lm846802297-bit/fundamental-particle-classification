@@ -102,11 +102,16 @@ For DHR sectors, any permutation p in S_n of a product of n charged endomorphism
 \]
 then rho_1 rho_2 is defined, while rho_2 rho_1 need not be defined when e'' differs from e'. The intermediate vacuum labels must match.
 
-The quasi-statistics construction therefore exchanges only certain admissible arrangements, in particular involving opposite orientations. Schlingemann labels the set of arrangements by
+The quasi-statistics construction therefore exchanges only certain admissible arrangements, in particular involving opposite orientations. Schlingemann defines P_l(n) as the partitions of the ordered set {1,...,n} into l nonempty consecutive (connected) blocks. An arrangement is a pair
+\[
+\kappa=(\kappa_+,\kappa_-),\qquad
+\kappa_+\in P_l(n),\quad \kappa_-\in P_l(m),
+\]
+which specifies how positive- and negative-orientation kink factors are grouped and composed. The set of pairs of admissible arrangements is
 \[
 G(n,m)=P(n,m)\times P(n,m),
 \]
-where n,m count the two orientations and P(n,m) denotes the relevant ordered connected-block arrangements.
+with P(n,m) the corresponding union of allowed block-partition arrangements. It is a set of admissible arrangements, not asserted to be a group.
 
 For a family of one-kink homomorphisms rho, each pair of admissible arrangements (kappa,kappa-hat) has a unitary quasi-statistics intertwiner
 \[
@@ -120,7 +125,7 @@ satisfying
 \rho_{\hat\kappa}(A).
 \]
 
-The corresponding quasi-statistics relation also acts on multi-kink field states. In the collision theory, the asymptotic scattering-state isometries intertwine different admissible arrangements through these quasi-statistics operators.
+The intertwiners are constructed using auxiliary kink homomorphisms and charge transporters, but the theorem states that they do not depend on those auxiliary choices. The corresponding quasi-statistics relation also acts on multi-kink field states. In the collision theory, the asymptotic scattering-state isometries intertwine different admissible arrangements through these quasi-statistics operators.
 
 This is a real QFT construction tied to massive kink one-particle sectors and their scattering states. Its status must nevertheless be described precisely:
 
