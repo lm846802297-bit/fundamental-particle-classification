@@ -53,6 +53,20 @@ This project must keep two questions separate:
 
 A positive answer to the first does not imply a positive answer to the second.
 
+### Infinite-spin localization and infinite statistics
+
+Longo, Morinelli, and Rehren (2016) establish an important conditional link between Wigner infinite-spin representations, localization, and infinite statistics:
+
+- Infinite-spin one-particle states are localizable in spacelike cones, while the corresponding one-particle subspace localized in any double cone is trivial.
+- The free field net obtained by Bose or Fermi second quantization has nontrivial cone algebras but trivial bounded-region algebras.
+- In an interacting theory satisfying the double-cone Reeh-Schlieder property and the Bisognano-Wichmann property, the covariance representation cannot contain an infinite-spin subrepresentation.
+- A DHR representation whose Poincare covariance contains infinite spin cannot have finite statistics; equivalently, under the stated assumptions it has infinite statistics.
+
+This is a serious 3+1D and higher-dimensional candidate route, but it is not yet an explicit interacting QFT construction of a new particle statistics class. The free infinite-spin Fock construction itself still uses the Bose/Fermi alternative. The result is a conditional theorem about localization and superselection sectors, not a proof that an interacting infinite-statistics particle exists. The paper's conclusions apply in spacetime dimensions s+1 where infinite-spin representations exist, s>=2.
+
+Primary reference:
+- R. Longo, V. Morinelli, and K.-H. Rehren, “Where Infinite Spin Particles are Localizable,” Commun. Math. Phys. 345, 587–614 (2016), DOI: 10.1007/s00220-015-2475-9, arXiv:1505.01759.
+
 Primary references:
 - E. P. Wigner, “On Unitary Representations of the Inhomogeneous Lorentz Group,” Ann. Math. 40, 149–204 (1939), DOI: 10.2307/1968551.
 - X. Bekaert and E. D. Skvortsov, “Elementary particles with continuous spin,” arXiv:1708.01030.
@@ -174,6 +188,7 @@ The point-particle configuration-space result is a kinematic constraint: in at l
 | Parastatistics | Established mathematical/statistical sectors; not automatically a new physical class | DHR/DR reconstruction can encode finite parastatistics using ordinary fields with compact gauge structure under stated assumptions |
 | Higher-spin particles | Not a new statistics class by themselves | New Poincare representation labels do not determine a new exchange algebra |
 | Continuous-spin particles | Not a new statistics class by themselves | New massless Poincare representations; in 4D the helicity tower is integer or half-integer |
+| Infinite-spin sectors with infinite statistics | Conditional candidate route in 3+1D and higher | Longo-Morinelli-Rehren show that a DHR sector containing infinite-spin covariance must have infinite statistics under Bisognano-Wichmann; no explicit interacting model is established |
 | Infinite statistics and other generalized algebras | Candidate area; not accepted without a relativistic fundamental-particle construction | Must pass observable-sector, locality, positivity, and inequivalence tests |
 | R-matrix/generalized parastatistics constructions | Algebraic candidate area; not yet an accepted QFT particle result | A condensed-matter realization or exchange algebra alone does not meet this project's particle criterion |
 
@@ -186,6 +201,7 @@ The point-particle configuration-space result is a kinematic constraint: in at l
 3. String/cone localization is compatible with fundamental particle status.
 4. Higher-spin and continuous-spin representations must not be counted as new statistics classes without a separate exchange-statistics result.
 5. Parastatistics must be tested against DHR/DR gauge reconstruction before being counted as physically inequivalent.
+6. Infinite-spin localization and the conditional infinite-statistics theorem provide a concrete candidate track, but not yet an existence construction.
 
 ### Next bounded tasks
 
@@ -194,5 +210,6 @@ The point-particle configuration-space result is a kinematic constraint: in at l
 3. Separate the 1+1D chiral/conformal braid-sector literature from massive asymptotic-particle constructions.
 4. Establish exactly which 3+1D no-go statements follow from bounded localization, spacelike-cone localization, finite statistics, and the Bisognano-Wichmann property.
 5. Extend the comparison to D>4 without assuming that the four-dimensional theorem automatically generalizes.
+6. Review the infinite-spin/infinite-statistics theorem in full, separating DHR localization, Buchholz-Fredenhagen cone localization, finite versus infinite statistics, and the role of the Bisognano-Wichmann property.
 
 **Phase I is not yet complete.** This document records a verified first baseline and the next finite set of literature checks; it does not claim an exhaustive classification.
