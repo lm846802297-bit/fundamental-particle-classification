@@ -44,6 +44,8 @@ A candidate is not beyond the Bose-Fermi classes merely because it has an unusua
 
 See [the research program](docs/research-program.md) and [the literature review template](docs/literature-review-template.md).
 
+[Existence audit 01](docs/existence-audit-01.md) checks an explicit massive wedge-local construction, a conditional obstruction to its cone-local promotion, and a local chiral braided-sector control. The exact reproduction checks are in `checks/`.
+
 ## Working standards
 
 - Separate proved theorems, explicit constructions, model-dependent results, interpretations, and conjectures.
