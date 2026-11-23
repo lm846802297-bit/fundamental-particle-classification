@@ -136,7 +136,7 @@ Mund proves the relativistic spin-statistics relation for massive braid-statisti
 e^{2\pi i s}=\omega.
 \]
 
-The theorem starts from local relativistic quantum theory. Its stated assumptions include a massive particle of mass m>0 in a charged sector, a mass gap separating m from the rest of that sector's mass spectrum, and finitely many particle types at that mass with a common spin. It also establishes particle-antiparticle symmetry for these sectors.
+Here s is the real spin and omega is the statistics phase obtained from the sector's statistics parameter. For Abelian anyons the exchange is represented by a phase; for non-Abelian plektons the full braid-group exchange data are matrix-valued. The theorem starts from local relativistic quantum theory. Its stated assumptions include a massive particle of mass m>0 in a charged sector, a mass gap separating m from the rest of that sector's mass spectrum, and finitely many particle types at that mass with a common spin. It also establishes particle-antiparticle symmetry for these sectors.
 
 This is a direct positive result for the project's fundamental-particle criterion. It is not based on a condensed-matter medium or a collective excitation.
 
