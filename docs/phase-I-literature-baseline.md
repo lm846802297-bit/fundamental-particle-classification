@@ -89,6 +89,8 @@ The key distinction for this project is between:
 
 Doplicher-Roberts reconstruction shows, under the relevant symmetric tensor-category hypotheses, how a compact gauge group and a field algebra can be reconstructed from the observable-sector structure. This is why finite parastatistics in the standard DHR setting are not automatically evidence for a new fundamental statistics class under this project's inequivalence criterion.
 
+The localization regime is essential. In 2+1D, bounded-region DHR localization and spacelike-cone localization must not be conflated: the relativistic anyon/plekton sectors use spacelike-cone-like localization, which allows braid-group statistics. One must not infer braid statistics from the spacetime dimension alone.
+
 The theorem is conditional. The hypotheses—especially localization, finite statistics, conjugates, symmetry of the tensor category, and the structure of the tensor unit—must be checked before applying the reconstruction result.
 
 Primary references:
@@ -101,7 +103,7 @@ Primary references:
 
 Localization is a decisive variable, not a technical afterthought.
 
-Buchholz and Fredenhagen showed that massive particle states in local relativistic theories, including gauge theories, can be associated with localization in spacelike cones even when their field-theoretic description requires nonlocal, unobservable fields assigned to infinite string-like regions. In their framework the resulting particle statistics are Bose, Fermi, or para-statistics.
+In their four-dimensional analysis, Buchholz and Fredenhagen showed that massive particle states in local relativistic theories, including gauge theories, can be associated with localization in spacelike cones even when their field-theoretic description requires nonlocal, unobservable fields assigned to infinite string-like regions. In that framework the resulting particle statistics are Bose, Fermi, or para-statistics; cone localization by itself does not produce 2+1D braid statistics.
 
 For 2+1D anyons, string-like/spacelike-cone localization is precisely the setting in which braid-group statistics can occur. Thus “not point-localized” must not be confused with “not a fundamental particle.” The physical one-particle state and its observable sector remain the objects to classify.
 
@@ -143,8 +145,15 @@ Primary references:
 - J. Mund, “Modular Localization of Massive Particles with ‘Any’ Spin in d=2+1,” arXiv:hep-th/0208195.
 - J. Mund, “The Spin-Statistics Theorem for Anyons and Plektons in d=2+1,” Commun. Math. Phys. 286, 1159–1180 (2009), DOI: 10.1007/s00220-008-0628-9, arXiv:0801.3621.
 - K. Fredenhagen, K.-H. Rehren, and B. Schroer, “Superselection Sectors with Braid Group Statistics and Exchange Algebras. I. General Theory,” Commun. Math. Phys. 125, 201–226 (1989), DOI: 10.1007/BF01217906.
+- K. Fredenhagen, K.-H. Rehren, and B. Schroer, “Superselection Sectors with Braid Group Statistics and Exchange Algebras II: Geometric Aspects and Conformal Covariance,” Rev. Math. Phys. 4, 113–157 (1992), DOI: 10.1142/S0129055X92000170.
 
-## 6. Initial dimension-by-dimension map
+## 6. Adjacent generalized spin-statistics results
+
+Krulewski, Müller, and Stehouwer (2025) prove a higher spin-statistics theorem for reflection-positive invertible field theories using an action of the stable orthogonal group and higher-categorical data. This is an important generalized spin-statistics result, but it is not a classification of ordinary particle exchange statistics. The paper explicitly excludes 2+1D anyons when introducing the usual Bose/Fermi particle dichotomy. It should therefore be tracked as adjacent mathematical structure, not counted as evidence for an additional elementary-particle statistics class.
+
+Reference: C. Krulewski, L. Müller, and L. Stehouwer, “A Higher Spin Statistics Theorem for Invertible Quantum Field Theories,” Commun. Math. Phys. 406, 230 (2025), DOI: 10.1007/s00220-025-05405-3, arXiv:2408.03981.
+
+## 7. Initial dimension-by-dimension map
 
 | Spacetime | Established particle/statistics structure | What remains to check |
 | --- | --- | --- |
@@ -155,7 +164,7 @@ Primary references:
 
 The point-particle configuration-space result is a kinematic constraint: in at least three spatial dimensions the fundamental group of the configuration space of identical point particles is the permutation group. It does not, by itself, prove every possible QFT no-go theorem. Higher-dimensional little-group representations can be more complicated without creating a new exchange-statistics class.
 
-## 7. Candidate classes: current status
+## 8. Candidate classes: current status
 
 | Candidate | Status for this project | Reason |
 | --- | --- | --- |
@@ -168,7 +177,7 @@ The point-particle configuration-space result is a kinematic constraint: in at l
 | Infinite statistics and other generalized algebras | Candidate area; not accepted without a relativistic fundamental-particle construction | Must pass observable-sector, locality, positivity, and inequivalence tests |
 | R-matrix/generalized parastatistics constructions | Algebraic candidate area; not yet an accepted QFT particle result | A condensed-matter realization or exchange algebra alone does not meet this project's particle criterion |
 
-## 8. Phase I conclusions and next tasks
+## 9. Phase I conclusions and next tasks
 
 ### Established conclusions
 
