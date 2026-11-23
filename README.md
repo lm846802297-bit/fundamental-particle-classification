@@ -1,48 +1,40 @@
-# Fundamental Particles Beyond the Boson-Fermion Dichotomy
+# Fundamental Particles Beyond Bose and Fermi
 
-A research project whose central goal is to determine whether **fundamental particles beyond the boson and fermion classes exist** in relativistic quantum field theory (QFT), including theories in lower- and higher-dimensional spacetime.
+A research project on whether fundamental particles beyond ordinary bosons and fermions exist in relativistic quantum field theory (QFT), and on the dimensions and assumptions under which further particle classes are possible.
 
 ## Central existence question
 
-\[
-\boxed{\exists\;\text{a physically consistent fundamental particle outside both the Bose and Fermi classes?}}
-\]
+Do physically consistent fundamental particles beyond the ordinary Bose and Fermi classes exist?
 
-The project is an existence search, not merely a neutral taxonomy exercise. Its final outcome should be either:
+**Known answer: yes, in 2+1-dimensional relativistic QFT.** Massive anyons and non-Abelian plektons are described by physical particle sectors with braid-group statistics. Their one-particle states carry unitary representations of the 2+1-dimensional Poincare group, and the relativistic spin-statistics relation has been proved under explicit mass-spectrum assumptions. See the [Phase I literature baseline](docs/phase-I-literature-baseline.md).
 
-1. an explicit, physically consistent relativistic QFT containing a fundamental particle whose physical statistics are genuinely inequivalent to both ordinary Bose and Fermi statistics; or
-2. a no-go theorem showing that no such particle can exist under a clearly stated set of assumptions.
-
-## What counts as a candidate?
-
-A candidate must be a fundamental physical particle of the theory, described through an appropriate one-particle state and/or particle-bearing superselection sector. It must not be a condensed-matter quasiparticle, collective excitation, composite bound state, or emergent excitation.
-
-A candidate is not beyond the Bose-Fermi classes merely because it has an unusual mass, charge, internal symmetry, spin, helicity, or field representation. For example, a higher-spin, continuous-spin, or Majorana particle is not by itself evidence of a third statistics class. The project studies these structures where they constrain or illuminate the existence question, while testing whether a proposed candidate has genuinely non-Bose/non-Fermi physical exchange or sector structure.
+The project therefore treats relativistic anyons/plektons as an established positive benchmark, not as a new result to rediscover. The open research task is to determine whether further fundamental-particle classes exist, and to establish the dimension- and localization-dependent limits in 1+1, 3+1, and higher-dimensional QFT.
 
 ## Scope
 
-- **Fundamental particles only.** Study physical one-particle states and the superselection sectors that describe particle charges in relativistic QFT. State explicitly which object is used in each argument; they are related but not interchangeable.
+- **Fundamental particles only.** Study physical one-particle states and particle-bearing superselection sectors in relativistic QFT. State explicitly which object is used in each argument; these notions are related but not interchangeable.
 - **All relevant spacetime dimensions.** Include 1+1, 2+1, 3+1, and higher-dimensional theories where they change the available structures or assumptions.
-- **No restriction to a named candidate.** Examine parastatistics, braid-group statistics (including abelian anyons and non-abelian plektons), infinite or other generalized statistics, and any further mathematically consistent possibilities found in primary literature.
+- **No restriction to a named candidate.** Examine parastatistics, braid-group statistics (including abelian anyons and non-Abelian plektons), and any further mathematically and physically admissible possibilities.
 - **Use the full QFT consistency framework.** Analyze Poincare representations, spin-statistics relations, localization, observable locality/causality, unitarity, spectrum conditions, superselection sectors, fusion/composition, gauge structure, and CPT where the relevant assumptions apply.
-- **Exclude condensed-matter quasiparticles, collective excitations, emergent particles, and composite bound states.**
+- **Exclude condensed-matter quasiparticles, collective/emergent excitations, and composite bound states.**
 
 ## Main questions
 
-1. Does any physically consistent relativistic QFT admit a fundamental particle outside the Bose and Fermi classes?
-2. Which assumptions of the spin-statistics theorems are essential to the usual dichotomy, and how do the answers depend on spacetime dimension?
-3. Can any proposed generalized statistics describe a physically distinct particle, rather than a reformulation of ordinary bosons or fermions with internal/gauge degrees of freedom?
-4. What roles do Poincare-group representations, localization, superselection sectors, fusion, and interactions play in establishing or excluding a candidate?
-5. If no candidate survives, what is the strongest precise no-go theorem supported by the assumptions?
+1. Beyond the established 2+1D anyon/plekton examples, are there further fundamental-particle classes outside ordinary Bose and Fermi statistics?
+2. Under which assumptions do 3+1D and higher-dimensional relativistic QFTs enforce permutation statistics and reduce parastatistics to ordinary Bose/Fermi fields with internal or gauge structure?
+3. What changes in 1+1D, and which braid-like sector structures correspond to genuine massive particle states rather than only chiral/conformal sectors?
+4. Can any proposed generalized statistics survive passage to the physical observable algebra and physical Hilbert space?
+5. What precise no-go theorems or explicit constructions settle the remaining cases?
 
 ## Research workflow
 
 1. Review primary literature and record theorem hypotheses and definitions.
-2. Build a dimension-aware candidate matrix spanning particle criteria, spacetime representations, statistics, localization, sectors, and consistency conditions.
-3. Test each candidate against explicit relativistic QFT requirements and equivalence to ordinary Bose/Fermi theories.
-4. Construct a consistent example or establish a no-go theorem under clearly specified assumptions.
+2. Treat established relativistic anyons/plektons in 2+1D as a verified positive benchmark.
+3. Build a dimension-aware comparison of particle criteria, Poincare representations, statistics, localization, superselection sectors, fusion, and consistency conditions.
+4. Test each further candidate against explicit relativistic QFT requirements and equivalence to ordinary Bose/Fermi theories.
+5. Establish a construction or a no-go theorem under clearly stated assumptions.
 
-See [the research program](docs/research-program.md) and [the literature review template](docs/literature-review-template.md).
+See the [research program](docs/research-program.md), the [Phase I literature baseline](docs/phase-I-literature-baseline.md), and the [literature review template](docs/literature-review-template.md).
 
 ## Working standards
 
@@ -54,4 +46,4 @@ See [the research program](docs/research-program.md) and [the literature review 
 
 ## Status
 
-The repository establishes the research question and workflow. It does not yet claim that a non-Bose/non-Fermi fundamental particle exists, nor that a general no-go theorem has been proved.
+The broad existence question is answered affirmatively in 2+1D by relativistic anyons/plektons. The dimension-by-dimension literature baseline is in progress; no claim is made that all possible non-Bose/non-Fermi fundamental-particle classes have been classified.
