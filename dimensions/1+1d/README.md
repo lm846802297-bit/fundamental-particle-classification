@@ -85,7 +85,10 @@ Examples and model classes discussed include the sine-Gordon and phi-four-in-two
 
 This meets the project's particle criterion when the isolated one-particle mass shell and positive-energy sector are established. A topological kink is not a composite bound state merely because it has a nonperturbative field profile.
 
-Primary source:
+Foundational and primary sources:
+- J. Fröhlich, “New Super-Selection Sectors (Soliton-States) in Two-Dimensional Bose Quantum Field Models,” Commun. Math. Phys. 47, 269–310 (1976), DOI: 10.1007/BF01609844. This gives a rigorous construction of soliton superselection sectors in two-dimensional sine-Gordon and related Bose field models.
+- K. Fredenhagen, “Superselection Sectors in Low Dimensional Quantum Field Theory,” J. Geom. Phys. 11, 337–348 (1993), DOI: 10.1016/0393-0440(93)90062-J. This extends the low-dimensional sector framework to solitonic sectors by replacing DHR endomorphisms with homomorphisms between different observable-algebra extensions.
+- J. Fröhlich and P. A. Marchetti, “Bosonization, Topological Solitons and Fractional Charges in Two-Dimensional Quantum Field Theory,” Commun. Math. Phys. 116, 127–173 (1988), DOI: 10.1007/BF01239028.
 - D. Schlingemann, *On the Algebraic Theory of Kink Sectors: Application to Quantum Field Theory Models and Collision Theory*, PhD dissertation, Universität Hamburg (1996), DESY 96-228. Original dissertation: https://www.physik.uni-hamburg.de/th2/ag-fredenhagen/dokumente/desy96-228.pdf.
 
 ## 4. Kink quasi-statistics: the main 1+1D candidate
