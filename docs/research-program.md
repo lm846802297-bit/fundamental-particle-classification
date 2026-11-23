@@ -89,7 +89,7 @@ For every theorem, construction, or proposed particle type, record:
 Review primary literature and reliable reviews on:
 
 - Wigner's classification and irreducible representations of the Poincare group, including massive and massless little groups across spacetime dimensions;
-- higher-spin and continuous-spin representations, while distinguishing new spacetime representations from new statistics;
+- higher-spin and continuous/infinite-spin representations, including their localization properties and the conditional relation between infinite-spin DHR sectors and infinite statistics; distinguish new spacetime representations from new statistics;
 - spin-statistics theorems, their hypotheses, and dimension dependence;
 - parastatistics and its relation to internal, gauge, and superselection structures;
 - braid-group statistics, abelian anyons, non-Abelian plektons, and relativistic QFT in 2+1 dimensions;
@@ -131,6 +131,7 @@ Compare verified candidates with the relevant primary theorems. In particular:
 - In 3+1D, establish precisely how bounded-region DHR localization, finite statistics, permutation symmetry, and Doplicher-Roberts reconstruction constrain possible sectors.
 - For massive charges localized in spacelike cones, determine what the Buchholz-Fredenhagen framework proves and which statistics remain possible.
 - In 1+1D, distinguish braid-like statistics of chiral/conformal sectors from the existence of massive asymptotic fundamental particles.
+- For infinite-spin representations, separate the Bose/Fermi Fock quantization of the free one-particle representation from the Longo-Morinelli-Rehren result that a DHR sector whose covariance contains infinite spin must have infinite statistics under the Bisognano-Wichmann assumptions; do not treat this conditional implication as an interacting existence construction.
 - In dimensions above 3+1, analyze the point-particle configuration-space topology and the higher-dimensional little groups, then establish which conclusions follow from topology alone and which require a QFT theorem.
 
 For each obstruction, state the theorem's hypotheses and whether relaxing any one of them admits a genuine candidate.
