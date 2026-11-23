@@ -6,7 +6,11 @@ A research project on whether fundamental particles beyond ordinary bosons and f
 
 Do physically consistent fundamental particles beyond the ordinary Bose and Fermi classes exist?
 
-**Known answer: yes, in 2+1-dimensional relativistic QFT.** Massive anyons and non-Abelian plektons are described by physical particle sectors with braid-group statistics. Their one-particle states carry unitary representations of the 2+1-dimensional Poincare group, and the relativistic spin-statistics relation has been proved under explicit mass-spectrum assumptions. See the [Phase I literature baseline](docs/phase-I-literature-baseline.md).
+**Known answer: yes, in 2+1-dimensional relativistic QFT.** Massive anyons and non-Abelian plektons are described by physical particle sectors with braid-group statistics. Their one-particle states carry unitary representations of the 2+1-dimensional Poincare group, and the relativistic spin-statistics relation has been proved under explicit mass-spectrum assumptions.
+
+- English: [Phase I literature baseline](docs/phase-I-literature-baseline.md)
+- 中文：[Phase I 文献基线](docs/phase-I-literature-baseline.zh-CN.md)
+- Primary-source bibliography: [literature/bibliography.bib](literature/bibliography.bib)
 
 The project therefore treats relativistic anyons/plektons as an established positive benchmark, not as a new result to rediscover. The open research task is to determine whether further fundamental-particle classes exist, and to establish the dimension- and localization-dependent limits in 1+1, 3+1, and higher-dimensional QFT.
 
@@ -34,7 +38,7 @@ The project therefore treats relativistic anyons/plektons as an established posi
 4. Test each further candidate against explicit relativistic QFT requirements and equivalence to ordinary Bose/Fermi theories.
 5. Establish a construction or a no-go theorem under clearly stated assumptions.
 
-See the [research program](docs/research-program.md), the [Phase I literature baseline](docs/phase-I-literature-baseline.md), and the [literature review template](docs/literature-review-template.md).
+See the [research program](docs/research-program.md) and the [literature review template](docs/literature-review-template.md).
 
 ## Working standards
 
