@@ -33,8 +33,8 @@ The following result is part of the baseline:
 
 - In 2+1D, the universal cover of the massive little group permits arbitrary real spin.
 - Massive anyon one-particle states can be constructed as unitary ray representations of the 2+1D Poincare group.
-- Their localization structure is string-like (equivalently, associated with spacelike-cone localization in the algebraic formulation), rather than point-like or bounded-region localization.
-- Abelian braid-group representations give anyons; non-Abelian braid-group representations give plektons.
+- Their field localization is string-like; the corresponding charged sectors are described using spacelike-cone localization in the algebraic formulation. These are distinct but related localization descriptions, and neither should be conflated with point-local or bounded-region localization.
+- Abelian braid-group representations give anyons; non-Abelian braid-group representations give plektons. The relevant braid statistics are tied to the noncompact localization regime; the spacetime dimension alone is not sufficient.
 - For massive braid-statistics sectors in 2+1D, the spin-statistics relation is
   \[
   e^{2\pi i s}=\omega,
