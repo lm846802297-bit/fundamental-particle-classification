@@ -1,0 +1,32 @@
+lock_version: 1
+
+central_repository: lm846802297-bit/high-energy-theory-research
+standards_release: null
+source_commit: "14155487afc075d301fa7f6cf452c7bff137e869"
+
+adopted_at: "2026-11-24"
+adoption_pr: "pending"
+
+adopted_profiles:
+  - core-governance
+  - research-compute
+  - task-handoff
+  - scientific-diff
+  - research-quality-gate
+  - calculation-result-archive
+  - rcrps-v1.0.1
+  - git-review-and-merge
+  - document-review
+  - generated-figure-and-report
+
+local_extensions:
+  - path: "README.md"
+    scope: "Fundamental-particle research question, scope, candidate criteria, and theory workflow"
+  - path: "CONTRIBUTING.md"
+    scope: "Primary-source requirements, theorem assumptions, and research-claim review"
+  - path: "docs/research-program.md"
+    scope: "Dimension-aware research program, candidate matrix, and project-specific scientific gates"
+  - path: "docs/literature-review-template.md"
+    scope: "Primary-literature extraction and theorem/construction comparison template"
+
+deviations: []
