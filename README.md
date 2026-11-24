@@ -44,6 +44,10 @@ A candidate is not beyond the Bose-Fermi classes merely because it has an unusua
 
 See [the research program](docs/research-program.md) and [the literature review template](docs/literature-review-template.md).
 
+## Shared research standards
+
+This repository adopts the shared research governance, compute, task-handoff, archival, structured-result, quality-gate, and Git review requirements maintained in [high-energy-theory-research](https://github.com/lm846802297-bit/high-energy-theory-research). The exact adopted revision and profiles are pinned in [docs/standards-lock.yaml](docs/standards-lock.yaml). The project-specific particle criteria, dimension-aware analysis, and theorem/construction assessment remain defined locally.
+
 ## Working standards
 
 - Separate proved theorems, explicit constructions, model-dependent results, interpretations, and conjectures.
